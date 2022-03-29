@@ -174,8 +174,49 @@ header {
 .section_6 .section_6_main_div div {
   margin: 0 50px;
   background-color: white;
+  width: 200px;
+  height: 250px;
 }
 .independent {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 300px;
+}
+.section_7 {
+  background-color: white;
+}
+.section_7 .section_7_div {
+  align-items: center;
+  width: 50%;
+  margin: 0 25%;
+}
+.section_7 .main {
+  text-align: center;
+}
+.section_8 h2 {
+  text-align: center;
+}
+.section_8 .section_8_main_div {
+  display: flex;
+  justify-content: center;
+}
+.section_8 .section_8_main_div div {
+  margin: 0 150px;
+}
+.section_8 .section_8_main_div div button {
+  background-color: #6b6bdf;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: none;
+}
+.section_8 .section_8_main_div div p {
+  color: orange;
+}
+.section_9 {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 100px;
 }
