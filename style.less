@@ -1,13 +1,9 @@
 *{
     font-family: sans-serif;
 }
-body{
-    background-color: rgb(226, 224, 224);
-}
 header{
     width: 100%;
-    height: 50px;
-    background-color: white;
+    background-color: #FFFFFF;
   
 }
 .header_main_div{
@@ -17,19 +13,27 @@ header{
         .main_button{
             border: none;
             background-color: white;
-            margin-top: 25px;
         }
         .last_button{
             border-radius: 20px ;
             padding: 5px 20px;
             margin-left: 5px;
         } 
+        img{
+         
+        }
     }
     
 }
 .secton_1{
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
+    background-color: #C4C4C4;;
+    div{
+        display: flex;
+        justify-content: center;
+    }
     h3{
         background-color: rgb(141, 141, 212);
         width: 200px;
@@ -94,8 +98,36 @@ header{
         display: flex;
         justify-content: space-between;
         border-radius: 10px;
+    }
+    .img_div{
+        display: flex;
+        justify-content: flex-start;
+         img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-top: 15px;
+            margin-right: 10px;
         
     }
+    
+    }
+    .border_p{
+        font-size: 12px;
+        text-align: center;
+        width: 95%;
+        color: white;
+        border-radius: 10px;
+      
+        background: linear-gradient(
+            to right,
+            rgb(4, 155, 130) 0%,
+            rgb(4, 155, 130) 90%,
+            rgb(236, 226, 226) 90%,
+            rgb(236, 226, 226) 100%,
+        );
+    }
+       
     }
 .section_3_div_3{
     background-color: white;
@@ -110,7 +142,7 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
-    background-color: rgb(147, 147, 241);
+    background-color: rgba(99, 133, 253, 0.7);
     div{
         width: 500px;
         .button_div_1{
@@ -120,6 +152,21 @@ header{
             padding: 10px;
             border-radius: 5px;
             margin-top: 25%;
+            div{
+                display: flex;
+                justify-content: flex-start;
+                img{
+                    margin-left: -40px;
+                    margin-top: -40px;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+            } 
+            p{
+               margin-left: 30px;
+            }
+            }
+           
             button{
                 border: none;
             }
@@ -141,10 +188,11 @@ header{
     }
 }
 .section_5{
+    padding-top: 50px;
+    background: #E5E5E5;
    .paragraph{
         text-align: center;
         color: orange;
-        margin-top: 100px;
    }
    .h2{
         text-align: center;
@@ -173,28 +221,32 @@ header{
 }
 }
 .section_6{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background: #E5E5E5;
     text-align: center;
-    margin-top: 100px;
     .section_6_main_div{
         display: flex;
         justify-content: center;
         div{
+            padding-top: 10px;
             margin: 0 50px;
             background-color: white;
             width: 200px;
-            height: 250px;
+            height: 230px;
         }
     }
 }
 .independent{
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 300px;
+   
 }
 
 .section_7{
-      
-       background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #E5E5E5;
     .section_7_div{
        align-items: center; 
        width: 50%; 
@@ -205,15 +257,26 @@ header{
    }
 }
 .section_8{
-    
+    padding-top: 100px;
+    background: rgba(130, 118, 255, 0.05);
     h2{
         text-align: center;
+        padding-bottom: 50px;
+    }
+    div{
+        input{
+            border-radius: 30px;
+            width:300px;
+            height: 50px;
+            padding-left: 20px;
+             border-style: none;
+        }
     }
     .section_8_main_div{
         display: flex;
         justify-content: center;
     div{
-        margin: 0 150px;
+        
         button{
             background-color: rgb(107, 107, 223);
             color: white;
@@ -221,6 +284,7 @@ header{
             height: 50px;
             border-radius: 30px;
             border-style: none;
+            margin-left: 5px;
         }
         p{
             color: orange;
@@ -229,8 +293,24 @@ header{
     }
 }
 .section_9{
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+  
     background-color: white;
     margin-top: 100px;
+    div{
+        margin-left: 100px;
+        text-align: center;
+    }
+}
+footer{   
+    background: rgba(130, 118, 255, 0.04);
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        size: 20px;
+        background-size: contain;
+    }
 }

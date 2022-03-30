@@ -1,13 +1,9 @@
 * {
   font-family: sans-serif;
 }
-body {
-  background-color: #e2e0e0;
-}
 header {
   width: 100%;
-  height: 50px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 .header_main_div {
   display: flex;
@@ -16,7 +12,6 @@ header {
 .header_main_div div .main_button {
   border: none;
   background-color: white;
-  margin-top: 25px;
 }
 .header_main_div div .last_button {
   border-radius: 20px ;
@@ -24,8 +19,14 @@ header {
   margin-left: 5px;
 }
 .secton_1 {
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
+  background-color: #C4C4C4;
+}
+.secton_1 div {
+  display: flex;
+  justify-content: center;
 }
 .secton_1 h3 {
   background-color: #8d8dd4;
@@ -87,6 +88,25 @@ header {
   justify-content: space-between;
   border-radius: 10px;
 }
+.section_3 .section_3_div_2 .img_div {
+  display: flex;
+  justify-content: flex-start;
+}
+.section_3 .section_3_div_2 .img_div img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.section_3 .section_3_div_2 .border_p {
+  font-size: 12px;
+  text-align: center;
+  width: 95%;
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 90%, #ece2e2 90%, #ece2e2 100%);
+}
 .section_3 .section_3_div_3 {
   background-color: white;
   margin-left: 30px;
@@ -99,7 +119,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
-  background-color: #9393f1;
+  background-color: rgba(99, 133, 253, 0.7);
 }
 .section_4 div {
   width: 500px;
@@ -111,6 +131,20 @@ header {
   padding: 10px;
   border-radius: 5px;
   margin-top: 25%;
+}
+.section_4 div .button_div_1 div {
+  display: flex;
+  justify-content: flex-start;
+}
+.section_4 div .button_div_1 div img {
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.section_4 div .button_div_1 div p {
+  margin-left: 30px;
 }
 .section_4 div .button_div_1 button {
   border: none;
@@ -129,10 +163,13 @@ header {
   margin-bottom: 10px;
   border-radius: 5px;
 }
+.section_5 {
+  padding-top: 50px;
+  background: #E5E5E5;
+}
 .section_5 .paragraph {
   text-align: center;
   color: orange;
-  margin-top: 100px;
 }
 .section_5 .h2 {
   text-align: center;
@@ -164,26 +201,30 @@ header {
   height: 40px;
 }
 .section_6 {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background: #E5E5E5;
   text-align: center;
-  margin-top: 100px;
 }
 .section_6 .section_6_main_div {
   display: flex;
   justify-content: center;
 }
 .section_6 .section_6_main_div div {
+  padding-top: 10px;
   margin: 0 50px;
   background-color: white;
   width: 200px;
-  height: 250px;
+  height: 230px;
 }
 .independent {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 300px;
 }
 .section_7 {
-  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #E5E5E5;
 }
 .section_7 .section_7_div {
   align-items: center;
@@ -193,15 +234,24 @@ header {
 .section_7 .main {
   text-align: center;
 }
+.section_8 {
+  padding-top: 100px;
+  background: rgba(130, 118, 255, 0.05);
+}
 .section_8 h2 {
   text-align: center;
+  padding-bottom: 50px;
+}
+.section_8 div input {
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  border-style: none;
 }
 .section_8 .section_8_main_div {
   display: flex;
   justify-content: center;
-}
-.section_8 .section_8_main_div div {
-  margin: 0 150px;
 }
 .section_8 .section_8_main_div div button {
   background-color: #6b6bdf;
@@ -210,13 +260,28 @@ header {
   height: 50px;
   border-radius: 30px;
   border-style: none;
+  margin-left: 5px;
 }
 .section_8 .section_8_main_div div p {
   color: orange;
 }
 .section_9 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: white;
   margin-top: 100px;
+}
+.section_9 div {
+  margin-left: 100px;
+  text-align: center;
+}
+footer {
+  background: rgba(130, 118, 255, 0.04);
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+footer img {
+  size: 20px;
+  background-size: contain;
 }
